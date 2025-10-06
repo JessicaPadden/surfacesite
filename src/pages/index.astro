@@ -1,0 +1,269 @@
+---
+//astro is similar to mark down on how it uses theses fences '---' this is also known as the front matter//
+
+//importing all styles//
+import "../styles/global2.css";
+import Navbar from "../pages/navbar.astro";
+
+import Mainlayout from "../layouts/mainlayout.astro";
+import Countdown from "../layouts/countdown.astro";
+import Productscard from "../components/Productscard.astro";
+import About from "../pages/about.astro";
+import Modal from "../components/modal.astro";
+import Team from "../components/team.astro";
+import Accordion from "../components/accordion.astro";
+import Api from "../fetching/api.astro";
+import Contact from "../pages/contact.astro";
+import Carousel from "../components/carousel.astro";
+import Footer from "../pages/footer.astro";
+
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+        <meta name="description" content=description />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--this project is based on astro file with html, css, js and bootstrap for the UCD assessment -->
+		<meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!--main image will be final.png to display logo and brand image this is based in the public folder and created by Jessica Padden -->
+    <meta property= "{Image}" content="images/Final.png" />
+    <!--naming the title to Surface so it can be identified -->
+      <title>SurFACE</title>
+
+        <!-- linking css -->
+     <link rel="stylesheet" href="../styles/global2.css">
+    
+    <!-- linking Swiper -->
+      <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+    <!--remixicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css">
+
+  
+      <!--font awesome link for icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    
+     <!-- surface js -->
+     <script src="../layouts/surface.js"></script>
+     
+     <!--Boostrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     
+    </head>
+<body>
+  
+  <!-- importing one page and does not conatin multple pages for a launch brand doing importing to keep it neat and tidy  -->
+  <Navbar />
+
+  <main>
+     <Mainlayout/ >
+
+  <Countdown />
+  </Mainlayout>
+
+  <Productscard />
+    <Modal />
+      <Api />
+        <Accordion />
+</Productscard> 
+
+  
+        <About />
+        <Team />
+        <Carousel />
+        <Contact />
+</About>
+
+
+
+     <!-- REVIEW 2 SWIPER Please Note to drag reviews if you want to break auto loop-->
+    <!-- please also note this will be left in the index.astro file as the swiper will not import correctly -->
+  <!--reviews section -->
+<section id="Reviews">
+  <section class="reviews-container">
+  <h2 class="review-title">Customer Reviews</h2>
+  <div class="review-swiper container swiper">
+    <div class= "review-swiper-wrapper swiper-wrapper">
+      <!--customer 1 -->
+      <article class="review-card swiper-slide">
+       <img src="Jessicafinal/public/images/customer1.jpg" alt="customer1" class="review-img" width="100px" height="100px">
+       <h3 class="Review-name">Erin <br>35, Co. Mayo</br></h3>
+
+
+       <div class="rates">
+        <div class="stars">
+          <i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+        </div>
+       </div>
+
+
+       <p class="review-text">"I love the SurFACE, all the products are great and affordable. I am so excited when this the brand launches online"</p>
+      </article>
+
+
+
+
+<!--customer 2 -->
+        <article class="review-card swiper-slide">
+       <img src="Jessicafinal/public/images/customer2.jpg" alt="customer2" width="100px" height="100px">
+       <h3 class="Review-name">Michelle<br>27, Co.Galway</br></h3>
+
+
+       <div class="rates">
+        <div class="stars">
+          <i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+        </div>
+       </div>
+
+
+       <p class="review-text">"I found this hidden gem on my visit to Mayo, the skin serum they recommended was really good and now my skin is so smooth. 10/10 would recommend if you are living here"</p>
+      </article>
+
+
+<!--customer 3 -->
+        <article class="review-card swiper-slide">
+       <img src="Jessicafinal/public/images/customer3.jpg" alt="customer3" width="100px" height="100px">
+       <h3 class="Review-name">Orla<br>29, Co. Sligo</br></h3>
+
+
+       <div class="rates">
+        <div class="stars">
+          <i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+        </div>
+       </div>
+
+
+       <p class="review-text">"The staff are so helpful and the products are lovely. Great place to get gifts and bundles for any event"</p>
+      </article>
+
+
+
+
+      <!--customer 4 -->
+       <article class="review-card swiper-slide">
+       <img src="Jessicafinal/public/images/customer4.jpg" alt="customer4" width="100px" height="100px">
+       <h3 class="Review-name">Claire<br>19, Co.Dublin</br></h3>
+
+
+       <div class="rates">
+        <div class="stars">
+          <i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+        </div>
+       </div>
+
+
+       <p class="review-text">"Absolutley love this place and will be placing orders once they are launched for the online store"</p>
+      </article>
+    </div>
+  <!-- swiper pagination -->
+  <div class="swiper-pagination"></div>
+
+
+    <!-- swiper navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+      
+    
+  <script>
+  
+  //initialising swiper
+  const swiperReviews = new Swiper('.review-swiper', {
+  loop: true,
+  slidesPerView:'auto',
+  centeredSlides: 'auto',
+  speed: 700,
+  spaceBetween: 20,
+  grabCursor: true,
+  effect:'coverflow',
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+  coverflowEffec:{
+    rotate:-90,
+    depth: 500,
+    stretch:0,
+    modifier:1,
+  },
+
+
+  // dividing content into different piece//
+  pagination: {
+    el: '.swiper-pagination',  
+    clickable: true,
+  },
+
+  autoplay:{
+    delay: 8000,
+    disableOnInteraction: true,
+  }
+
+});
+</script>
+
+
+
+
+
+
+
+
+ </main>
+ 
+
+
+ 
+    <Footer />
+
+
+ <!--Boostrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+ 
+ <!--swiper js -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.js"></script>
+
+
+ <!-- CDN FOR CHART.JS -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
+
+
+
+
+     
+
+

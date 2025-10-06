@@ -1,0 +1,34 @@
+---
+
+import Countdown from "./countdown.astro";
+
+---
+ 
+ 
+ 
+ <!----MAIN LAYOUT PAGE-->
+  <section id="main-page">
+    <div class="main-container-fluid mt-2 px-3">
+  <div class="main-page-text">
+    <h1> Welcome to the
+      <span>SurFACE</span></h1>
+  <span>New Beauty Brand</span>
+  <p>We are an animal cruelty free and vegan beauty company based in Co. Mayo.
+</p>
+   
+    <span> Our mission</span>
+    <p> To make you feel beautiful in your own skin and this is how we got the inspiration from the brand name The SurFACE.
+    We have a range of new and upcoming beauty products and skin care products for all skin types!</p>
+
+ <button type="button"
+onclick="document.getElementById('Launch date').innerHTML = new Date('January 1, 2026');">
+        <p>Click for Launch date </button>
+        <p id="Launch date"></p></div>
+ 
+
+  <Countdown/>
+  
+  </section>
+
+ 
+
