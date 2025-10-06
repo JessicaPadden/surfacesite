@@ -50,7 +50,7 @@
 
 - [Bootstrap 5] (https://getbootstrap.com/docs/5.3/getting-started/download/)
 
-- [Swiper] (https://swiperjs.com/get-started)
+- [Swiper](https://swiperjs.com/get-started/)
 - [Astro](https://astro.build/)
 
 
@@ -112,31 +112,31 @@ How it all started
  
 #### Deployment process:
 
-- Follow the link [here] (https://jessicapadden.github.io/surfacesite/) to see my page
-- Follow the link [here] (https://github.com/JessicaPadden/surfacesite) to see my repository
+- Follow the link [here](https://jessicapadden.github.io/surfacesite/) to see my page
+- Follow the link [here](https://github.com/JessicaPadden/surfacesite) to see my repository
 
 
 #### Credits/Acknowledgements:
 There was alot of tutroials watched throughout the course so I have simplied it here to the main ones.
 I would also like to thank UCD and a big thank you to our lecturer for all of his support and teachings. 
 
-- [UCD] (https://www.ucd.ie/professionalacademy/)
+- [UCD](https://www.ucd.ie/professionalacademy/)
 
-- [W3Schools] (https://www.w3schools.com/)
+- [W3Schools](https://www.w3schools.com/)
 
-- [Chart.js] (https://www.chartjs.org/)
+- [Chart.js](https://www.chartjs.org/)
 
-- [YouTube] (https://www.youtube.com/)
+- [YouTube](https://www.youtube.com/)
 
-- [Modzilla] (https://developer.mozilla.org/en-US/)
+- [Modzilla](https://developer.mozilla.org/en-US/)
 
-- [Bootstrap] (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
-- [Swiper] (https://swiperjs.com/get-started)
+- [Swiper](https://swiperjs.com/get-started)
 
-- [Chart.js] (https://www.chartjs.org/)
+- [Chart.js](https://www.chartjs.org/)
 
-- [Freepik] (https://www.freepik.com/)
+- [Freepik](https://www.freepik.com/)
 
  
 
