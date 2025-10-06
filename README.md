@@ -33,7 +33,7 @@
 
 - By doing this project, I completed my greatest efforts for this project and made it accessible and as user-friendly as possible.
 
-- [Project] https://github.com/JessicaPadden/surfacesite
+- [Project]https://github.com/JessicaPadden/surfacesite
 
  
 
@@ -48,7 +48,7 @@
 
 ## Frameworks
 
-- [Bootstrap 5] (https://getbootstrap.com/docs/5.3/getting-started/download/)
+- [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/download/)
 
 - [Swiper](https://swiperjs.com/get-started/)
 - [Astro](https://astro.build/)
@@ -81,11 +81,11 @@
 
 How it all started
 
-- [Download VS code on windows] (https://code.visualstudio.com/Download)
+- [Download VS code on windows](https://code.visualstudio.com/Download)
 
-- [Creating a Github Account with a repo with a public view ] (https://github.com/)
+- [Creating a Github Account with a repo with a public view ](https://github.com/)
 
-- [setting up Node.js] (https://nodejs.org/en/download/)
+- [setting up Node.js](https://nodejs.org/en/download/)
 
 - [Node.js is installed] Run **npm install** on the terminal (make sure it is *bash*, not PowerShell). Run **npm run dev** for the package.json file for node.js
 
@@ -94,7 +94,7 @@ How it all started
 
 ## APIs
 
-- [Makeup API] (https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline)
+- [Makeup API](https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline)
 
 
 
