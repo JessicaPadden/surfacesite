@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
     "build": "astro build",
     "deploy": "npm run build && echo 'npm run deplo'",
     "test": "echo \"Error: no test specified\" && exit 1"
